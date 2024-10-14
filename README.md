@@ -1,5 +1,5 @@
 # FTTN: Feature-Targeted Testing for Numerical Properties of NVIDIA & AMD Matrix Accelerators
-FTTN is a test suite to evaluate the numerical behaviors of matrix accelerators of GPUs (NVIDIA Tensor Cores and AMD Matrix Cores) in a quick and simple setting. Matrix accelerators are heavily used in today's computationally intense applications to speed up matrix multiplications. This test suite provides a comprehensive study on the numerical behaviors of these accelerators, including support for subnormals, rounding modes, extra precision bits and FMA features. See the following table for the features FTTN tests:
+FTTN is a test suite to evaluate the numerical behaviors of GPU matrix accelerators (NVIDIA Tensor Cores and AMD Matrix Cores) in a quick and simple setting. Matrix accelerators are heavily used in today's computationally intense applications to speed up matrix multiplications. This test suite provides a comprehensive study on the numerical behaviors of these accelerators, including support for subnormals, rounding modes, extra precision bits and FMA features. See the following table for the features FTTN tests:
 
 | **Test name**            | **Test description**                            |
 |--------------------------|-------------------------------------------------|
@@ -59,7 +59,7 @@ We used our test suites in V100, A100 (NVIDIA 3060), H100, MI100, MI250X and the
 For questions, contact Ganesh Gopalakrishnan [ganesh@cs.utah.edu](mailto:ganesh@cs.utah.edu) and
  Xinyi Li [xin_yi.li@utah.edu](mailto:xin_yi.li@utah.edu).
 
-To cite GPU-FPX please use
+To cite GPU-FPX, please use
 ```
 @inproceedings{li2024fttnfeaturetargetedtestingnumerical,
       url={https://arxiv.org/abs/2403.00232},
